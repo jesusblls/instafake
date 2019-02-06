@@ -6,14 +6,16 @@
   "cordovaId": "org.cordova.quasar.app",
   "author": "",
   "private": true,
-  "homepage": "https://jesusblls.github.io/quasar/",
+  "homepage": "https://jesusblls.github.io/instafake/",
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "predeploy": "quasar build -t ios",
-    "deploy": "gh-pages -d dist/spa-ios"
+    "predeploy": "quasar build",
+    "deploy": "gh-pages -d dist/spa-mat"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "cloudinary": "^1.13.2",
+    "firebase": "^5.8.2"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
